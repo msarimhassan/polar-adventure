@@ -1,0 +1,38 @@
+const TourData = [
+  {
+    img: 'https://polarweb.s3.ca-central-1.amazonaws.com/quark-expeditions/WEX20230204/main-quarkexpeditions_crossing_antarctic_circle_oad_acaciajohnson_1.jpg',
+    title: 'Crossing the Circle: Southern Expedition',
+    departure: 'Ushuaia',
+    arrival: 'Ushuaia',
+    startDate: 'Feb 5, 2023',
+    endDate: 'Feb 17, 2023',
+    ship: 'World Explorer 13 Days, From $15,895',
+  },
+  {
+    img: 'https://polarweb.s3.ca-central-1.amazonaws.com/hurtigruten-expeditions/760620760639/main-tender-boat-excursion-neko-harbour-antarctica--hgr-129231_1920-_photo_karsten_bidstrup.jpg',
+    title: 'Antarctica & Falklands Expedition (Northbound)',
+    departure: 'Ushuaia',
+    arrival: 'Buenos Aires',
+    startDate: 'Mar 15, 2023',
+    endDate: 'Apr 1, 2023',
+    ship: 'MS Fridtjof Nansen 19 Days, From $11,401',
+  },
+  {
+    img: 'https://polarweb.s3.ca-central-1.amazonaws.com/ponant/LY010223/main-l1100699-ponant-antarctica%C2%A9ponant-ragnar_axelsson.jpg',
+    title: 'Emblematic Antarctica',
+    departure: 'Ushuaia',
+    arrival: 'Ushuaia',
+    startDate: 'Feb 1, 2023',
+    endDate: 'Feb 11, 2023',
+    ship: 'Ship: Le Lyrial 11 Days, From $9,160',
+  },
+  {
+    img: 'https://polarweb.s3.ca-central-1.amazonaws.com/ponant/LY010223/main-l1100699-ponant-antarctica%C2%A9ponant-ragnar_axelsson.jpg',
+    title: 'Emblematic Antarctica',
+    departure: 'Ushuaia',
+    arrival: 'Ushuaia',
+    startDate: 'Feb 1, 2023',
+    endDate: 'Feb 11, 2023',
+    ship: 'Ship: Le Lyrial 11 Days, From $9,160',
+  },
+];
