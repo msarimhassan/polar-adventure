@@ -1,4 +1,4 @@
-const CarouselSection = ({ backgroundImage }) => {
+const CarouselSection = ({ backgroundImage, content, color }) => {
   return (
     <div
       style={{
@@ -8,8 +8,8 @@ const CarouselSection = ({ backgroundImage }) => {
     >
       {/* Header */}
 
-      <div className='flex items-end pb-[50px] justify-center h-screen'>
-        <h1 className='text-white text-[4vw]'>Welcome to Polar Adventure</h1>
+      <div className='flex items-end pb-[50px] justify-center h-screen whitespace-pre'>
+        <div className={`text-${color} text-center font-bold text-[5vw] md:text-[3vw]`}>{content}</div>
       </div>
     </div>
   );
